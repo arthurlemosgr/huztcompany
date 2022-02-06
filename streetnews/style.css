@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Playfair+Display&family=Poppins:wght@500&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Oswald:wght@300&family=Playfair+Display&family=Poppins:wght@500&family=Secular+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    font-family: Secular One;
+    border-top: 0.4px solid black;
+     
+}
+.menu-item{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+   
+}
+.menu-item:hover{
+    text-decoration: underline;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    -webkit-text-fill-color: rgb(243, 243, 243);
+}
+.logo{
+    cursor: pointer; 
+    border-top:black;
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 900px;
+    margin-bottom: 35px;
+   
+}
+.logo:hover{
+    width: 350px;
+    transition: all 0.5s;
+}
+.conteudo{
+    border-top: 0.4px solid black;
+}
+.drop2out{
+    margin-top: 400px;
+    font-size: 90px;
+    font-family: Secular One;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 60px;
+    cursor: crosshair;
+    padding-top: 150px;
+    display: inline-block;
+
+}
+.drop2out:hover{
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black; 
+    -webkit-text-fill-color: rgb(243, 243, 243);
+    text-decoration: underline;
+
+}
+.peitacostas{
+    width: 600px;
+    margin-left: 1200px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-color: black;
+    border-radius: 3px;
+}
+.peitacostas a{
+    width: 100%;
+    height: 100%;
+
+
+ }
+
+.newdrop{
+   font-size: 25px;
+   margin-left: 75px;
+   display: flex;
+   font-family: EB Garamond;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 60px;
+    display: block;
+    margin-bottom: 0;
+}
+
+button{
+       padding: 15px;
+       font-size: 25px;
+       text-align: center;
+       text-anchor: middle;
+       display:flexbox;
+       font-family: Secular One;
+       width: 350px;
+       margin-left: 70px;
+       margin-top: 40px;
+       background-color: black;
+       color: white;
+       cursor: crosshair;
+       margin-bottom: 190px;
+   }
+button:hover{
+    background-color:rgb(231, 231, 231);
+    color: black;
+    border:solid 1px;
+    font-style: italic;
+    
+}
+.products{
+    margin-top: 400px;
+    font-size: 90px;
+    font-family: Secular One;
+    align-items: center;
+    display: flex;
+    margin-left: 850px;
+    margin-top: 60px;
+    cursor: crosshair;
+    padding-top: 10px;
+}
+.products:hover{
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black; 
+    -webkit-text-fill-color: rgb(243, 243, 243);
+    text-decoration: underline;
+}
+.produto p{
+    width: 500px;
+    font-size: 30px;
+    line-height: 0.9
+    font-family: Secular One;
+
+}
+.produto2 p{
+    width: 500px;
+    font-size: 30px;
+    line-height: 0.9
+    font-family: Secular One;
+
+}
+.produtos{
+    display: grid;
+    justify-content: center;
+     grid-template-areas: 
+     "produto produto2"
+     ;
+
+     grid-template-columns: 0.3fr 0.3fr;
+     margin-bottom: 90px;
+     grid-gap: 0.5em;
+     margin-top: 30px;
+     
+
+}
+
+.produto{
+    grid-area: produto;
+}
+
+.produto2{
+    grid-area: produto2;
+}
+
+.quantidade{
+   height: 40px;
+   font-size: 20px;
+    margin-top: 2px;
+    display: flexbox;
+}
+.buy{
+    height: 60px;
+    width: 230px;
+    font-size: 20px;
+}
+.createcc{
+    margin-top: 400px;
+    font-size: 60px;
+    font-family: Secular One;
+    align-items: center;
+    display: flex;
+    margin-left: 820px;
+    margin-top: 60px;
+    cursor: crosshair;
+    padding-top: 10px;
+}
+.createcc:hover{
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black; 
+    -webkit-text-fill-color: rgb(243, 243, 243);
+    text-decoration: underline;
+}
+
+.inputBox{
+    align-items: center;
+    margin-left: 40%;;
+    font-size: 30px;
+    font-family: Secular One;
+    margin-top: 20px;
+}
+
+input{
+    padding: 5px;
+    width: 350px;
+}
+button{
+    margin-left: 42%;
+}
